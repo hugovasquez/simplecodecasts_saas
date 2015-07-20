@@ -39,7 +39,7 @@ end
 
     private
     def profile_params
-        params.require(:profile).permit(:first_name, :last_name, :gender, :weight, :height, :age, :phone_number, :contact_email, :description)
+        params.require(:profile).permit(:first_name, :last_name, :avatar, :gender, :weight, :height, :age, :phone_number, :contact_email, :description)
     end
     
     def only_current_user
