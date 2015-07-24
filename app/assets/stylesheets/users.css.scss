@@ -1,3 +1,9 @@
+/* Users Show Page Styles */
+.user-show-avatar {
+    height: 256px;
+    width: 256px;
+}
+
 .well.profile-description {
     color: #fff;
     background-color: #777777;
@@ -20,4 +26,14 @@
   -moz-box-shadow: 5px 9px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 5px 9px 5px 0px rgba(50, 50, 50, 0.75);
   border: 2px solid;
+}
+
+
+/* Users Index Page Styles*/
+.user-index-avatar {
+    border-radius: 50%;
+}
+
+.well.white-bg {
+    background-color: white;
 }
