@@ -16,6 +16,9 @@
                             <div>
                                 <%= link_to user do %>
                                 <h2><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
+                                    <% if user.plan_id == 2 %>
+                                        <p><span class="label label-danger">PRO</span></p>
+                                    <% end %>
                                 <% end %>
                             </div>
                         </div>
